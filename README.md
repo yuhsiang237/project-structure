@@ -33,3 +33,19 @@
 <td>delete a order (soft delete)</td>
 </tr>
 </table>
+
+### Order Table
+```sql
+CREATE TABLE [dbo].[Order] (
+    [OrderNumber] NVARCHAR (50) NOT NULL,
+    [OrderType] INT NOT NULL,
+    [CreatedDate] DATETIME NOT NULL,
+    [Remark] NVARCHAR(100) NULL, 
+    [IsValid] BIT NOT NULL,
+    [CreatedOn] DATETIME NOT NULL,
+    [ChangedOn] DATETIME NOT NULL,
+    CONSTRAINT [PK_Order] PRIMARY KEY CLUSTERED (
+    [OrderNumber] ASC,
+    [OrderType] ASC)
+);
+```
