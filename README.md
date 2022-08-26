@@ -1,5 +1,6 @@
 # project-structure
 
+# SPEC
 ### Order API SPEC
 <table>
 <tr>
@@ -49,3 +50,8 @@ CREATE TABLE [dbo].[Order] (
     [OrderType] ASC)
 );
 ```
+
+### ENV Of Developer 
+- ASP.NET Core 3.1
+- SQL Server 2019
+- Visual Studio 2022
