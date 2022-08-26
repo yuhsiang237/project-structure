@@ -50,6 +50,10 @@ CREATE TABLE [dbo].[Order] (
 );
 ```
 
+### System Structure
+<img style="width:500px" src="https://github.com/yuhsiang237/project-structure/blob/master/Assets/1.system_structure.PNG?raw=true"/>
+
+
 ### ENV Of Developer 
 - ASP.NET Core 3.1
 - SQL Server 2019
