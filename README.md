@@ -5,7 +5,7 @@
 <tr>
 <td>Method</td>
 <td>API</td>
-<td>Descrption</td>
+<td>Description</td>
 </tr>
 <tr>
 <td>POST</td>
