@@ -1,6 +1,5 @@
 # project-structure
 
-# SPEC
 ### Order API SPEC
 <table>
 <tr>
