@@ -1,5 +1,5 @@
 # project-structure
-The project is an example project structure of developing the **businessActor** (as known as BA, which handles the business logic) and **dataAccessor** (as known as DA, which handles the data store) services that the developer can use them in controller to handle the specific requirement, which makes the program responsibilities clear and easy to test.
+The project is an example project structure of developing the service of **businessActor** (as known as BA, which handles the business logic) and **dataAccessor** (as known as DA, which handles the data store) that the developer can use them in controller to handle the specific requirement, which makes the program responsibilities clear and easy to test.
 
 In addition, the project involves an easy order service example that includes the basic operation, such as CRUD, and it also has the full unit test in each businessActor and dataAccessor.
 
