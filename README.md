@@ -37,6 +37,9 @@ In addition, the project involves an easy order service example that includes th
 </tr>
 </table>
 
+Document:  
+https://github.com/yuhsiang237/project-structure/wiki/API-SPEC
+
 ### Order Table
 ```sql
 CREATE TABLE [dbo].[Order] (
