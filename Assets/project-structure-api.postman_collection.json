@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "92f0c815-c80f-4e0a-b1b0-024b06f8a7ef",
+		"name": "project-structure-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Order/GetOrderListAsync",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"strictSSL": false,
+				"followRedirects": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Data\":{\r\n     \"startdate\":\"2022-08-12\",\r\n     \"enddate\":\"2022-08-27\"\r\n }   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44379/order/GetOrderListAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"order",
+						"GetOrderListAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order/GetOrderAsync",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"strictSSL": false,
+				"followRedirects": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Data\":{\r\n     \"orderNumber\":\"C202208260100\",\r\n     \"orderType\":1\r\n }   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44379/order/GetOrderAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"order",
+						"GetOrderAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order/CreateOrderAsync",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"strictSSL": false,
+				"followRedirects": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Data\":{\r\n     \"orderType\":1,\r\n     \"CreatedDate\":\"2022-01-01\",\r\n     \"remark\":\"test\"\r\n }   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44379/order/CreateOrderAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"order",
+						"CreateOrderAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order/UpdateOrderAsync",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"strictSSL": false,
+				"followRedirects": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Data\":{\r\n     \"orderNumber\":\"C202208260133\",\r\n     \"orderType\":1,\r\n     \"remark\":\"test update\"\r\n }   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44379/order/UpdateOrderAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"order",
+						"UpdateOrderAsync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order/DeleteOrderAsync",
+			"protocolProfileBehavior": {
+				"followOriginalHttpMethod": false,
+				"strictSSL": false,
+				"followRedirects": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"Data\":{\r\n     \"orderNumber\":\"C202208260133\",\r\n     \"orderType\":1\r\n }   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44379/order/DeleteOrderAsync",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44379",
+					"path": [
+						"order",
+						"DeleteOrderAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
