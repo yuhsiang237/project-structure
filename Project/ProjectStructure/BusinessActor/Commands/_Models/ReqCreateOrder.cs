@@ -2,7 +2,7 @@
 
 using ProjectStructure.Enums;
 
-namespace ProjectStructure.BussinessActor.Commands
+namespace ProjectStructure.BusinessActor.Commands
 {
     public class ReqCreateOrder
     {

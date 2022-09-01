@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using ProjectStructure.DataAccessor.Commands;
 using ProjectStructure.Util;
 
-namespace ProjectStructure.BussinessActor.Commands
+namespace ProjectStructure.BusinessActor.Commands
 {
     /// <summary>
     /// OrderCommandHandler

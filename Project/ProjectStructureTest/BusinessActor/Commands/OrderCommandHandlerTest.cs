@@ -4,9 +4,9 @@ using Xunit;
 using Moq;
 
 using ProjectStructure.DataAccessor.Commands;
-using ProjectStructure.BussinessActor.Commands;
+using ProjectStructure.BusinessActor.Commands;
 
-namespace ProjectStructureTest.BussinessActor.Commands
+namespace ProjectStructureTest.BusinessActor.Commands
 {
     public class OrderCommandHandlerTest
     {

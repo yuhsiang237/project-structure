@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace ProjectStructure.BussinessActor.Commands
+namespace ProjectStructure.BusinessActor.Commands
 {
     public interface ICommandHandler<TCommand>
     {

@@ -4,9 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-using ProjectStructure.BussinessActor;
-using ProjectStructure.BussinessActor.Commands;
-using ProjectStructure.BussinessActor.Queries;
+using ProjectStructure.BusinessActor;
+using ProjectStructure.BusinessActor.Commands;
+using ProjectStructure.BusinessActor.Queries;
 using ProjectStructure.DataAccessor.Commands;
 using ProjectStructure.DataAccessor.Queries;
 

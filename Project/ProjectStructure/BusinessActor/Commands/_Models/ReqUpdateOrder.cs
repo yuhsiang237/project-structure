@@ -1,10 +1,9 @@
 ﻿using ProjectStructure.Enums;
 
-namespace ProjectStructure.BussinessActor.Commands
+namespace ProjectStructure.BusinessActor.Commands
 {
-    public class ReqDeleteOrder
+    public class ReqUpdateOrder
     {
-
         /// <summary>
         /// OrderNumber
         /// </summary>
@@ -18,6 +17,10 @@ namespace ProjectStructure.BussinessActor.Commands
 
         public OrderType OrderType { get; set; }
 
+        /// <summary>
+        /// Remark
+        /// </summary>
 
+        public string Remark { get; set; }
     }
 }

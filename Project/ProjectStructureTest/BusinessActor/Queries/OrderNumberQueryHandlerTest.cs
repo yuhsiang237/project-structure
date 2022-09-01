@@ -5,12 +5,12 @@ using Xunit;
 using FluentAssertions;
 using Moq;
 
-using ProjectStructure.BussinessActor;
-using ProjectStructure.BussinessActor.Queries;
+using ProjectStructure.BusinessActor;
+using ProjectStructure.BusinessActor.Queries;
 using ProjectStructure.DataAccessor.Queries;
 using ProjectStructure.Enums;
 
-namespace ProjectStructureTest.BussinessActor.Queries
+namespace ProjectStructureTest.BusinessActor.Queries
 {
     public class OrderNumberQueryHandlerTest
     {

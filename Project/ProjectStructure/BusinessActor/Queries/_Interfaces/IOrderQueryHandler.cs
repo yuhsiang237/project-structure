@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ProjectStructure.BussinessActor.Queries
+namespace ProjectStructure.BusinessActor.Queries
 {
     public interface IOrderQueryHandler
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using ProjectStructure.BussinessActor.Queries;
+using ProjectStructure.BusinessActor.Queries;
 using ProjectStructure.DataAccessor.Queries;
 
-namespace ProjectStructure.BussinessActor
+namespace ProjectStructure.BusinessActor
 {
     public partial class OrderQueryHandler : IOrderQueryHandler
     {

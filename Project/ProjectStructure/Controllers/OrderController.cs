@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Mvc;
 
-using ProjectStructure.BussinessActor.Commands;
-using ProjectStructure.BussinessActor.Queries;
+using ProjectStructure.BusinessActor.Commands;
+using ProjectStructure.BusinessActor.Queries;
 using ProjectStructure.Models;
 
 namespace ProjectStructure.Controllers

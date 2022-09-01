@@ -1,17 +1,23 @@
 ﻿using ProjectStructure.Enums;
 
-namespace ProjectStructure.BussinessActor.Commands
+namespace ProjectStructure.BusinessActor.Commands
 {
-    public class RspCreateOrder
+    public class ReqDeleteOrder
     {
+
         /// <summary>
         /// OrderNumber
         /// </summary>
+
         public string OrderNumber { get; set; }
+
 
         /// <summary>
         /// OrderType
         /// </summary>
+
         public OrderType OrderType { get; set; }
+
+
     }
 }

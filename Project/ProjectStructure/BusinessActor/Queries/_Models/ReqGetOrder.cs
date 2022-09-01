@@ -1,6 +1,6 @@
 ﻿using ProjectStructure.Enums;
 
-namespace ProjectStructure.BussinessActor.Queries
+namespace ProjectStructure.BusinessActor.Queries
 {
     public class ReqGetOrder
     {
